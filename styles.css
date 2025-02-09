@@ -27,7 +27,7 @@ label {
     
 }
 
-input[type="radio"] :checked + label {
+input[type="radio"]:checked + label {
     background-color:  white;
     border-bottom: 1px solid white;
     font-weight: bold;
