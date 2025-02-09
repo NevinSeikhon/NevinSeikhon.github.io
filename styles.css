@@ -24,12 +24,18 @@ label {
     border: 1px solid grey;
     border-bottom: none;
     color: beige;
+    
 }
 
 input[type="radio"] :checked + label {
     background-color:  white;
     border-bottom: 1px solid white;
     font-weight: bold;
-    color: orange;   
+    color: black;   
 }
+
+label:hover {
+    background-color: rgb(238, 203, 156);
+}
+
 
