@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    padding: 50px;
+    background-color: white;
+}
+
+input[type="radio"] {
+    border: 0;
+    clip-path: inset(50%);
+    margin: -1px;
+    padding: 0px;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    cursor: pointer;
+    background-color: grey;
+    border: 1px solid grey;
+    border-bottom: none;
+    color: beige;
+    
+}
+
+input[type="radio"]:checked + label {
+    background-color:  white;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    color: black;   
+}
+
+label:hover {
+    background-color: rgb(238, 203, 156);
+}
+
+
