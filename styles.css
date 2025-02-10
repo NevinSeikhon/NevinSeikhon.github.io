@@ -4,8 +4,22 @@ header {
     font-family: arial;
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 40px;
 }
 
+#ov-pic {
+    margin-left: 90px; 
+}
+
+#ex-pic {
+    position: absolute;
+    margin-left: 93px; 
+}
+
+#li-pic {
+    position: absolute;
+    margin-left: 195px; 
+}
 
 div {
     font-family: sans-serif;
