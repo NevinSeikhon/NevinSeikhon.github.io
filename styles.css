@@ -1,6 +1,30 @@
-body {
+header {
+    padding: 20px;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#ov-pic {
+    margin-left: 90px; 
+}
+
+#ex-pic {
+    position: absolute;
+    margin-left: 93px; 
+}
+
+#li-pic {
+    position: absolute;
+    margin-left: 195px; 
+}
+
+div {
     font-family: sans-serif;
     padding: 50px;
+    padding-top: 10px;
     background-color: white;
 }
 
@@ -12,6 +36,7 @@ input[type="radio"] {
     position: absolute;
     height: 1px;
     width: 1px;
+    
     
 }
 
