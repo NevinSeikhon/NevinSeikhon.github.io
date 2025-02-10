@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 
-    <link rel = "stylesheet" href="styles.css" />
-</head>
-<body>
-    <header>My Personal Webpage: Nevin Seikhon</header>
-    
-    <img id="ov-pic" src="/overview.jpg" width="30" height="30">
-    <img id="ex-pic" src="/image.jpg" width="30" height="30">
-    <img id="li-pic" src="/link.jpg" width="30" height="30">
-    <div>
-        <input type="radio" id="tab1" name="tabs" checked />
-        <label for="tab1">Overview</label>
+        <link rel = "stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>My Personal Webpage: Nevin Seikhon</header>
         
-        <input type="radio" id="tab2" name="tabs" checked  />
-        <label for="tab2">Experience</label>
+        <img id="ov-pic" src="/overview.jpg" width="30" height="30">
+        <img id="ex-pic" src="/image.jpg" width="30" height="30">
+        <img id="li-pic" src="/link.jpg" width="30" height="30">
+        
+        <div class="radio-set">
+            <input type="radio" id="tab1" name="tabs" checked />
+            <label for="tab1">Overview</label>
+            
+            <input type="radio" id="tab2" name="tabs"   />
+            <label for="tab2">Experience</label>
 
-        <input type="radio" id="tab3" name="tabs" checked />
-        <label for="tab3">Links</label>
-    </div>
-</body>
+            <input type="radio" id="tab3" name="tabs"  />
+            <label for="tab3">Links</label>
+
+            
+    
+            <div class="tab-content" id="content3">
+                <h2>content for tab 3</h2>
+            </div>
+
+        </div>
+    </body>
 </html>
