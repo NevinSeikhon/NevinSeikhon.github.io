@@ -75,6 +75,7 @@ label:hover {
 }
 #ov-bio {
     padding-right: 500px;
+    padding-bottom: 100px;
 }
 
 span {
@@ -83,6 +84,29 @@ span {
     padding: 5px 12px 5px 12px;
     background-color: rgb(117, 241, 228);
     
+}
+
+#map {
+    position: absolute;
+    top: 250px;
+    left: 950px;
+
+}
+#sfu {
+    position: absolute;
+    top: 250px;
+    left: 1170px;
+
+}
+#code {
+    position: absolute;
+    top: 370px;
+    left: 950px;
+}
+#seng {
+    position: absolute;
+    top: 370px;
+    left: 1170px;
 }
 
 #tab1:checked ~ #content1,
