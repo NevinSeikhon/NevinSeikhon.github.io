@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     padding: 50px;
     padding-top: 10px;
-    background-color: white;
+    background-color: rgb(139, 224, 178);
 }
 
 header {
@@ -69,7 +69,7 @@ label:hover {
     padding: 20px;
     border: 1px solid white;
     border-top: none;
-    background-color: white;
+    
     color: black;
     box-shadow: 0px 4px 6px black;
 }
@@ -122,6 +122,10 @@ span {
     position: absolute;
     top: 430px;
     left: 600px;
+}
+
+#content1 {
+    background-color: bisque;
 }
 
 #tab1:checked ~ #content1,
