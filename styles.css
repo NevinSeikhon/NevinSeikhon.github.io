@@ -109,7 +109,23 @@ span {
     left: 1170px;
 }
 
+#space {
+    padding: 120px;
+}
+#skills {
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+
+#traits {
+    position: absolute;
+    top: 430px;
+    left: 600px;
+}
+
 #tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
 #tab3:checked ~ #content3 {
     display: block;
 }
