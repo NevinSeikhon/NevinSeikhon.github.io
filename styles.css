@@ -46,22 +46,27 @@ label {
     padding: 10px 20px;
     margin: 0px;
     cursor: pointer;
-    background-color: grey;
+    background-color: lightgray;
     border: 1px solid grey;
     border-bottom: none;
-    color: beige;
+    font-weight: bold;
+    color: black;
     
 }
 
 input[type="radio"]:checked + label {
-    background-color:  white;
     border-bottom: 1px solid white;
     font-weight: bold;
-    color: black;   
+    color: black;
+    background-color: white;   
 }
 
 #tab1:hover + label {
     background-color: rgb(238, 203, 156);
+}
+
+#tab2:hover + label {
+    background-color: aliceblue;
 }
 
 #tab3:hover + label {
@@ -131,7 +136,11 @@ span {
 }
 
 #content1 {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
+}
+
+#content2 {
+    background-color: aliceblue;
 }
 
 #content3 {
