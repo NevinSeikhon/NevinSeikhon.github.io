@@ -95,7 +95,8 @@ span {
     margin: 40px;
     border: 1px groove black;
     padding: 5px 12px 5px 12px;
-    background-color: rgb(117, 241, 228);
+    background-color: rgb(139, 224, 178);
+    font-family: courier;
     
 }
 
