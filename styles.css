@@ -149,6 +149,13 @@ span {
 #content3 {
     background-color: rgb(247, 183, 250);
 }
+
+ul {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3 {
