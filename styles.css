@@ -15,17 +15,17 @@ header {
 }
 
 #ov-pic {
-    margin-left: 90px; 
+    margin-left: 45px; 
 }
 
 #ex-pic {
     position: absolute;
-    margin-left: 93px; 
+    margin-left: 95px; 
 }
 
 #li-pic {
     position: absolute;
-    margin-left: 195px; 
+    margin-left: 205px; 
 }
 
 
@@ -165,6 +165,19 @@ ul {
 h4 {
     padding-left: 70px;
 }
+
+#favicon-1 {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+#favicon-2 {
+    position: absolute;
+    top: 25px;
+    left: 1055px;
+}
+
 
 
 #tab1:checked ~ #content1,
